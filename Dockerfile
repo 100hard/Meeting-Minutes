@@ -1,4 +1,4 @@
-# Railway Optimized Dockerfile - CPU only for reliable deployment
+#Dockerfile - CPU only for reliable deployment
 FROM python:3.10-slim
 
 WORKDIR /app
@@ -34,9 +34,10 @@ USER appuser
 #PORT environment variable for railway
 EXPOSE $PORT
 
-# Health check for Railway
+# Health check 
 HEALTHCHECK --interval=30s --timeout=10s --start-period=60s --retries=3 \
     CMD curl -f http://localhost:$PORT/ || exit 1
 
-# Run the application with Railway's PORT
+# Run the application 
+
 CMD ["python", "app.py"]
