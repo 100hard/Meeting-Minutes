@@ -132,5 +132,5 @@ The Dockerfile:
 1. **Clone the Repository**
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/100hard/Meeting-Minutes.git
+cd Meeting-Minutes
