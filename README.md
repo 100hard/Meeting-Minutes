@@ -1,5 +1,12 @@
 # Meeting Minutes Generator
 
+## Live Demo
+
+You can try the live version of this project here:  
+**https://meeting-minutes-eu64.onrender.com/**
+
+---
+
 ## Overview
 
 Meeting Minutes Generator is a Python-based application that transcribes audio recordings of meetings and generates structured, professional meeting minutes using advanced AI models.
@@ -134,3 +141,4 @@ The Dockerfile:
 ```bash
 git clone https://github.com/100hard/Meeting-Minutes.git
 cd Meeting-Minutes
+
